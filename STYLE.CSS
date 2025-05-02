@@ -1,0 +1,55 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(a4.jpg); */
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   flex-direction: column;
+}
+#logo{
+     width: 20vw;
+}
+h1{
+      color:rgb(44, 11, 13);
+     font-family:'Arial Narrow Bold', sans-serif;
+}
+#name{
+      color: rgb(189, 15, 116);
+      font-size: 30px;
+}
+#var{
+      color:rgb(20, 14, 33) ;
+}
+#voice{
+     width: 100px; 
+     display: none;
+    
+}
+#btn{
+ width: 30%;
+ background: linear-gradient(to right,rgb(44, 11, 39),rgb(14, 3, 140));
+ padding: 10px;
+ align-items:center;
+ justify-content: center ;
+ gap: 10px;
+ font-family: 20px;
+ border-radius: 20px;
+ color: white;
+ box-shadow: 2px 2px 2px rgb(85, 4, 74),2px 2px 2px rgb(25, 15, 163) ;
+ border:none;
+ transition: all 0.5s;
+ cursor: pointer;
+
+}
+#btn:hover{
+    box-shadow: 2px 2px 20px rgb(85, 4, 74),2px 2px 2px rgb(25, 15, 163) ;
+    letter-spacing: 2px;
+}
